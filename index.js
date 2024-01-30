@@ -124,26 +124,32 @@ function BalthoAbout() {document.body.innerHTML = `${BalthoNav}<div style="backg
   </fieldset>
   <br>
   <label for="name"><b>First Name:</b></label>
-  <input type="text" placeholder="Enter your first name" name="email" required>
+  <br>
+  <input type="text" placeholder="Enter your first name" name="name" required>
   <br>
   <br>
   <label for="name"><b>Last Name:</b></label>
-  <input type="text" placeholder="Enter your last name" name="email" required>
+  <br>
+  <input type="text" placeholder="Enter your last name" name="name" required>
   <br>
   <br>
-  <label for="email"><b>Email:   </b></label>
+  <label for="email"><b>Email:</b></label>
+  <br>
   <input type="text" placeholder="Enter your email" name="email" required>
   <br>
   <br>
   <label for="uname"><b>Username:</b></label>
+  <br>
   <input type="text"  name="uname" placeholder="choose a username" required>
   <br>
   <br>
   <label for="psw"><b>Password:</b></label>
+  <br>
   <input type="password" placeholder="Create a password" name="psw" required>
   <br>
   <br>
   <label for="psw"><b>Confirm:</b></label>
+  <br>
   <input type="password" placeholder="Confirm the password" name="psw" required>
   <br>
   <br>
