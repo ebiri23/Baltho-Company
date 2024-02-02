@@ -156,7 +156,7 @@ function BalthoAbout() {document.body.innerHTML = `${BalthoNav}<div style="backg
   <label>
   <input type="checkbox" checked="checked" name="remember"> I confirm all the information is true
   </label> 
-  <button type="submit">Submit</button></form><div>`
+  <button type="submit">Submit</button></form></div>`
   };
   function Catalogue(){
     document.body.innerHTML = `${BalthoNav}<div style="background-color: white; padding: 30px; border-radius: 30px;"> <div id="carouselAutoplaying" class="carousel slide" data-bs-ride="carousel">
